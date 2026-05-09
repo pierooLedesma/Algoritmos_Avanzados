@@ -81,8 +81,8 @@ int colorearGrafoVoraz(vector<vector<int>> grafo) {
 
     for (int v = 0; v < cantidadVertices; v++) {
         vector<int> coloresProhibidos(vertices[v].vecinos.size(), -1);
-        // En la línea 53, el primer argumento del "()" es la cantidad de vecinos del vértice actual.
-        // En la línea 53, el segundo argumento del "()" es la inicialización en -1 para todos los elementos del vector.
+        // En la línea 83, el primer argumento del "()" es la cantidad de vecinos del vértice actual.
+        // En la línea 83, el segundo argumento del "()" es la inicialización en -1 para todos los elementos del vector.
 
         agregarColoresProhibidos(v, vertices, colores, coloresProhibidos);
         asignarMenorColorDisponible(coloresProhibidos, colores, v);
