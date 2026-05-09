@@ -1,0 +1,3 @@
+C:/Users/lpier/OneDrive/AlgoritmosAvanzados/Temas/Heuristica/ColorearGrafoVoraz/cmake-build-debug/CMakeFiles/ColorearGrafoVoraz.dir
+C:/Users/lpier/OneDrive/AlgoritmosAvanzados/Temas/Heuristica/ColorearGrafoVoraz/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/lpier/OneDrive/AlgoritmosAvanzados/Temas/Heuristica/ColorearGrafoVoraz/cmake-build-debug/CMakeFiles/rebuild_cache.dir
