@@ -15,7 +15,7 @@ void completar_matriz_de_soluciones(int *regiones, int cant_regiones, vector<vec
     // Ordenar ascendentemente las actas de las regiones
     sort(regiones, regiones + cant_regiones);
 
-    // Completar con 1's la primera columna de la matríz de soluciones (el "dp").
+    // Completar con 1's la primera columna de la matriz de soluciones (el "dp").
     for (int i = 0; i < cant_regiones; i++) matriz_de_soluciones[i][0] = true;
 
     // Completar la matriz de soluciones
