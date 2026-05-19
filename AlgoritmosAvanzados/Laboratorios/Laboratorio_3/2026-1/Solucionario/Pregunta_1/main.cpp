@@ -49,7 +49,7 @@ void minimizar(vector<Tarea> conjuntoDeTareas) {
     // Inicializar el vector "conjuntoDeSolucion" para cada elemento de dicho vector.
     vector<Solucion> conjuntoDeSolucion(conjuntoDeTareas.size(), {0,0,0,0,0,0});
 
-    // Ordenar descendentemente el vector "conjuntoDeTareas" por el ratio (tiempo * peso), como primera condición,
+    // Ordenar descendentemente el vector "conjuntoDeTareas" por el ratio (peso / tiempo), como primera condición,
     // y ordenar por peso de forma ascendente (como segunda condición).
     sort(conjuntoDeTareas.begin(), conjuntoDeTareas.end(), compara);
 
