@@ -1,0 +1,3 @@
+C:/Users/lpier/OneDrive/AlgoritmosAvanzados/MetaHeuristicas/MetaHeuristicas/Programación_de_Tareas/Codigo/cmake-build-debug/CMakeFiles/Codigo.dir
+C:/Users/lpier/OneDrive/AlgoritmosAvanzados/MetaHeuristicas/MetaHeuristicas/Programación_de_Tareas/Codigo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/lpier/OneDrive/AlgoritmosAvanzados/MetaHeuristicas/MetaHeuristicas/Programación_de_Tareas/Codigo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
