@@ -1,0 +1,3 @@
+C:/Users/lpier/OneDrive/AlgoritmosAvanzados/Laboratorios/Laboratorio_4/2024-2/Solucionario/Pregunta_2/cmake-build-debug/CMakeFiles/Pregunta_2.dir
+C:/Users/lpier/OneDrive/AlgoritmosAvanzados/Laboratorios/Laboratorio_4/2024-2/Solucionario/Pregunta_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/lpier/OneDrive/AlgoritmosAvanzados/Laboratorios/Laboratorio_4/2024-2/Solucionario/Pregunta_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
