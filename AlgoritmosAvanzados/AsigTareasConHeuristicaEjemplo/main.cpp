@@ -41,9 +41,7 @@ int main() {
     }
 
     // Ordenar descendentemente
-    sort(ordenes.begin(),
-         ordenes.end(),
-         comparar);
+    sort(ordenes.begin(), ordenes.end(), comparar);
 
     // 5 líneas de producción
     vector<int> carga(5,0);
@@ -64,14 +62,9 @@ int main() {
         }
 
         // Asignar orden
-        carga[mejorLinea] +=
-            orden.tiempoTotal;
+        carga[mejorLinea] += orden.tiempoTotal;
 
-        asignadas[mejorLinea]
-            .push_back(
-                "Orden" +
-                to_string(orden.id)
-            );
+        asignadas[mejorLinea].push_back("Orden" + to_string(orden.id));
     }
 
     // Mostrar resultados
@@ -79,28 +72,19 @@ int main() {
 
     for(int i=0; i<5; i++) {
 
-        cout << "Linea "
-             << i+1 << ": ";
+        cout << "Linea " << i+1 << ": ";
 
         for(string s : asignadas[i]) {
             cout << s << " ";
         }
 
-        cout << "\nCarga total: "
-             << carga[i]
-             << " minutos\n\n";
+        cout << "\nCarga total: " << carga[i] << " minutos\n\n";
     }
 
     // Makespan
-    int makespan =
-        *max_element(
-            carga.begin(),
-            carga.end()
-        );
+    int makespan = *max_element(carga.begin(), carga.end());
 
-    cout << "Makespan = "
-         << makespan
-         << " minutos\n";
+    cout << "Makespan = " << makespan << " minutos\n";
 
     return 0;
 }
