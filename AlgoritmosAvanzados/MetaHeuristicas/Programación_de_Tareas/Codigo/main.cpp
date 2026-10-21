@@ -27,19 +27,15 @@ Resultado construccionGRASP(const vector<vector<int>>& matriz_de_tiempos) {
         int beta = INT_MAX;
         int tau = INT_MIN;
 
+        // Guarda el tiempo total que tendría la máquina 'j'
+        // si se le asigna la tarea actual 'i'
         vector<int> valor(cant_maquinas);
 
         // 3.1 y 3.2: calcular beta y tau
         for (int j = 0; j < cant_maquinas; j++) {
             valor[j] = tiempos_acumulados[j] + matriz_de_tiempos[i][j];
-
-            if (valor[j] < beta) {
-                beta = valor[j];
-            }
-
-            if (valor[j] > tau) {
-                tau = valor[j];
-            }
+            beta = min(beta, valor[j]);
+            tau = max(tau, valor[j]);
         }
 
         // 3.3: construir la RCL
